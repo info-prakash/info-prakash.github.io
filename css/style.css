@@ -7080,7 +7080,7 @@ h2 {
   width: auto;
 }
 #header .list-inline {
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 @media only screen and (max-width: 320px) {
   #header .list-inline-item + .list-inline-item {
@@ -7100,7 +7100,7 @@ h2 {
 }
 #header .header-contact-info {
   text-align: right;
-  padding-top: 15px;
+  padding-top: 10px;
   font-size: 12px;
 }
 @media only screen and (max-width: 600px) {
@@ -7367,51 +7367,56 @@ h2 {
   position: relative;
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-1 {
-  background-image: url("../images/js.jpg");
+  width: 282px;
+  background-image: url("../images/skills/item-1.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-2 {
-  width: 130px;
-  background-image: url("../images/es6.jpg");
+  width: 300px;
+  background-image: url("../images/skills/item-2.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-3 {
-  width: 310px;
-  background-image: url("../images/nodejs.jpg");
+  width: 275px;
+  background-image: url("../images/skills/item-3.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-4 {
-  width: 245px;
-  background-image: url("../images/express.jpg");
+  width: 285px;
+  background-image: url("../images/skills/item-4.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-5 {
-  width: 140px;
-  background-image: url("../images/react.jpg");
+  width: 200px;
+  background-image: url("../images/skills/item-5.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-6 {
-  width: 170px;
-  background-image: url("../images/redux.jpg");
+  width: 280px;
+  background-image: url("../images/skills/item-6.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-7 {
-  width: 130px;
-  background-image: url("../images/mobx.jpg");
+  width: 170px;
+  background-image: url("../images/skills/item-7.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-8 {
-  width: 305px;
-  background-image: url("../images/angular.jpg");
+  width: 370px;
+  background-image: url("../images/skills/item-8.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-9 {
-  width: 350px;
-  background-image: url("../images/bootstrap.jpg");
+  width: 130px;
+  background-image: url("../images/skills/item-9.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-10 {
-  width: 130px;
-  background-image: url("../images/html.jpg");
+  width: 350px;
+  background-image: url("../images/skills/item-10.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-11 {
-  width: 170px;
-  background-image: url("../images/css.jpg");
+  width: 365px;
+  background-image: url("../images/skills/item-11.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-12 {
-  width: 340px;
-  background-image: url("../images/sass.jpg");
+  width: 250px;
+  background-image: url("../images/skills/item-12.png");
+}
+.panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-13 {
+  width: 215px;
+  background-image: url("../images/skills/item-13.png");
 }
 @media only screen and (max-width: 768px) {
   .panel-two .browser-wrapper .search-result .list-inline-item.items-img {
@@ -7515,7 +7520,7 @@ h2 {
 }
 .panel-three .timeline-block .years {
   float: left;
-  width: 20%;
+  width: 33%;
   position: relative;
 }
 .panel-three .timeline-block .years span {
