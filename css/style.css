@@ -7080,7 +7080,7 @@ h2 {
   width: auto;
 }
 #header .list-inline {
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 @media only screen and (max-width: 320px) {
   #header .list-inline-item + .list-inline-item {
@@ -7100,7 +7100,7 @@ h2 {
 }
 #header .header-contact-info {
   text-align: right;
-  padding-top: 15px;
+  padding-top: 10px;
   font-size: 12px;
 }
 @media only screen and (max-width: 600px) {
