@@ -1426,8 +1426,9 @@ ul ul, ol ul, ul ol, ol ol {
 
 .list-inline {
   padding-left: 0;
-  margin-left: -5px;
+  margin-left: auto;
   list-style: none;
+  text-align: center;
 }
 
 .list-inline > li {
@@ -7278,7 +7279,7 @@ h2 {
   }
 }
 .panel-two .browser-wrapper .browser-header {
-  background: url("../images/browser-header.jpg") no-repeat 15px bottom;
+  background: url("../img/browser-header.jpg") no-repeat 15px bottom;
   background-color: #fac118;
   -webkit-border-top-left-radius: 15px;
   -moz-border-radius-topleft: 15px;
@@ -7368,55 +7369,67 @@ h2 {
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-1 {
   width: 282px;
-  background-image: url("../images/skills/item-1.png");
+  background-image: url("../img/skills/item-1.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-2 {
-  width: 300px;
-  background-image: url("../images/skills/item-2.png");
+  width: 275px;
+  background-image: url("../img/skills/item-2.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-3 {
-  width: 275px;
-  background-image: url("../images/skills/item-3.png");
+  width: 240px;
+  background-image: url("../img/skills/item-3.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-4 {
-  width: 285px;
-  background-image: url("../images/skills/item-4.png");
+  width: 280px;
+  background-image: url("../img/skills/item-4.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-5 {
-  width: 200px;
-  background-image: url("../images/skills/item-5.png");
+  width: 285px;
+  background-image: url("../img/skills/item-5.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-6 {
-  width: 280px;
-  background-image: url("../images/skills/item-6.png");
+  width: 200px;
+  background-image: url("../img/skills/item-6.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-7 {
-  width: 170px;
-  background-image: url("../images/skills/item-7.png");
+  width: 280px;
+  background-image: url("../img/skills/item-7.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-8 {
-  width: 370px;
-  background-image: url("../images/skills/item-8.png");
+  width: 170px;
+  background-image: url("../img/skills/item-8.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-9 {
-  width: 130px;
-  background-image: url("../images/skills/item-9.png");
+  width: 370px;
+  background-image: url("../img/skills/item-9.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-10 {
-  width: 350px;
-  background-image: url("../images/skills/item-10.png");
+  width: 130px;
+  background-image: url("../img/skills/item-10.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-11 {
   width: 365px;
-  background-image: url("../images/skills/item-11.png");
+  background-image: url("../img/skills/item-11.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-12 {
-  width: 250px;
-  background-image: url("../images/skills/item-12.png");
+  width: 365px;
+  background-image: url("../img/skills/item-12.png");
 }
 .panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-13 {
-  width: 215px;
-  background-image: url("../images/skills/item-13.png");
+  width: 250px;
+  background-image: url("../img/skills/item-13.png");
+}
+.panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-14 {
+  width: 210px;
+  background-image: url("../img/skills/item-14.png");
+}
+.panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-15 {
+  width: 150px;
+  background-image: url("../img/skills/item-15.png");
+}
+.panel-two .browser-wrapper .search-result .list-inline-item.items-img.item-16 {
+  width: 335px;
+  background-image: url("../img/skills/item-16.png");
 }
 @media only screen and (max-width: 768px) {
   .panel-two .browser-wrapper .search-result .list-inline-item.items-img {
@@ -7655,7 +7668,7 @@ h2 {
 }
 
 .footer-panel {
-  background: #393939 url("../images/logo-grayscale.png") no-repeat center 20px;
+  background: #393939 url("../img/logo-grayscale.png") no-repeat center 20px;
   padding: 80px 20px 10px;
   text-align: center;
   color: #8c8c8c;
